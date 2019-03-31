@@ -1,0 +1,33 @@
+.top-wrapper {
+    margin-left: -25%;
+    margin-top: 0px;
+    border-bottom: 1px black solid;
+    width: 100vw;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+}
+.main-btn {
+    font-family: ;
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #DD7373;
+}
+
+#auth-btn {
+    padding:0px;
+    margin-top:30%;
+    color:#D1D1D1;
+    font-size:2em;
+    text-shadow: 2px 1px 4px;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+.container {
+    background-color: #D1D1D1;
+}
