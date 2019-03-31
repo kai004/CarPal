@@ -8,13 +8,13 @@ from flask_googlemaps import Map
 import smartcar
 
 client = smartcar.AuthClient(
-	client_id = '***',
-	client_secret = '***',
+	client_id = 'ea6bdfac-493e-41bf-ad40-2d8230d2130a',
+	client_secret = '2b970c69-3698-45f7-883f-b7b505f8a925',
 	redirect_uri = 'http://localhost:5000/after-auth',
 )
 
 app = Flask(__name__)
-GoogleMaps(app, key="***")
+GoogleMaps(app, key="AIzaSyD4-8cGahf7ABQ34z66Pq1c2B6GOEr1Gec")
 
 @app.route('/')
 def index():
