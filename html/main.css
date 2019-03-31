@@ -1,11 +1,15 @@
+html {
+    background-color: #D1D1D1;
+}
 .top-wrapper {
-    margin-left: -25%;
-    margin-top: 0px;
+    margin: 0px;
     border-bottom: 1px black solid;
     width: 100vw;
 }
 h1 {
-    font-family: 'Amatic SC', cursive;
+    font-weight: 500;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
 }
 .main-btn {
     font-family: ;
@@ -28,6 +32,20 @@ h1 {
 
 }
 
-.container {
-    background-color: #D1D1D1;
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+}
+
+h2, h3 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center; 
+    font-size: 2em;
+}
+
+#map {
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    margin: auto;
 }
